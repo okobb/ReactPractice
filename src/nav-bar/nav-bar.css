@@ -1,0 +1,9 @@
+.nav-container {
+  background-color: rgb(44, 172, 246);
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  margin-right: 50px;
+}

@@ -1,0 +1,147 @@
+
+.header-container {
+    width : 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.logo-img{
+    width:50px;
+}
+
+.logo {
+    display : flex;
+}
+
+.button-container{
+    display: flex;
+
+}
+button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+button {
+  margin-left: 10px;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+/* Dark mode button */
+.dark-mode-btn {
+  background-color: #111827;
+}
+
+.dark-mode-btn:hover {
+  background-color: #374151;
+}
+
+/* Wishlist Button */
+
+.wishlist-btn {
+  background-color: #de132a;
+}
+
+.wishlist-btn:hover {
+  background-color: #ff1947;
+}
+
+/* Cart Button */
+
+.cart-btn {
+  background-color: #137cde;
+}
+
+.cart-btn:hover {
+  background-color: #1810ff;
+}
+
+/* Search Button */
+
+.search-btn {
+  background-color: #ffdd1c;
+}
+
+.search-btn:hover {
+  background-color: #ffbb10;
+}
+
+/* Searchbar */
+
+.group {
+ display: flex;
+ line-height: 28px;
+ align-items: center;
+ position: relative;
+ max-width: 300px;
+}
+
+.input {
+ width: 100%;
+ height: 40px;
+ line-height: 28px;
+ padding: 10px 40px 10px 15px;
+ border: 2px solid transparent;
+ border-radius: 8px;
+ outline: none;
+ background-color: #f3f3f4;
+ color: #0d0c22;
+ transition: .3s ease;
+}
+
+.input::placeholder {
+ color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+ outline: none;
+ border-color: rgba(234,76,137,0.4);
+ background-color: #fff;
+ box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.search-submit-button {
+
+  position: absolute; 
+  
+  top: 0;
+  bottom: 0;
+  right: 10px; 
+  
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+ fill: #555;
+ width: 20px;
+ height: 20px;
+}
